@@ -1,0 +1,505 @@
+/*google font integrete*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Global Css*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,span{
+	font-family: Quicksand , sans-serif;
+	color: #1c1e2e;
+	font-weight: bold;
+}
+a,p,input,ul,li{
+	font-family: Roboto , sans-serif;
+}
+/*Header part css*/
+.header{
+	/*width: 100%;*/
+	background-color: #fff;
+	padding: 20px;
+}
+.header img{
+	vertical-align: middle;
+}
+.header span{
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 10px;
+	vertical-align:middle; 
+	font-weight: bold;
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 15px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-2{
+	width: 20%;
+	float: left;
+}
+.col-2 img{
+	width: 70px;
+}
+.col-1{
+	width: 15%;
+	float: left;
+}
+.col-12{
+	width: 85%;
+	float: right;
+}
+
+.banner-left{
+/*	background-color: white;
+    margin: 32px;*/
+    padding: 32px;
+}
+.banner .left h1{
+	font-size: 47px;
+    margin-bottom: 16px;
+}
+.banner .left p {
+    font-size: 14px;
+    line-height: 5px;
+    margin-bottom: 20px;
+    color: #4c527d;
+}
+.banner .left-button{
+	background: #ed6524;
+    font-size: 18px;
+    color: white;
+}
+.banner button{
+	padding: 20px 50px;
+	border-radius: 32px;
+	border: 3px solid #ed6524;
+	margin-right: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.banner .right-button{
+	background: #fff;
+    font-size: 18px;
+    color: #ed6524;
+    transition: 0.5s all ease-in-out;
+}
+.banner .right-button:hover{
+	background-color: #ed6524;
+	color: white;
+	transition: 0.5s all ease-in-out;
+
+}
+.testimonial{
+	width: 100%;
+	margin: 30px 0;
+}
+.message{
+	height: 140px;
+	width: 100%;
+	background: #f6f4fc;
+	border-left: 4px solid #f5a782;
+	position: relative;
+}
+.message p {
+	font-size: 16px !important;
+    line-height: 20px !important;
+    padding: 40px !important;
+    font-style: italic
+}
+.corner-box{
+	height: 30px;
+    width: 30px;
+    background: #f6f4fc;
+    position: absolute;
+    bottom: -15px;
+    left: 5%;
+    transform: rotate(45deg);
+}
+.user{
+	width: 100%;
+	height: 70px;
+	margin-top: 22px;
+}
+.col-1 img{
+	width: 40px;
+}
+.balinfo{
+	margin: 15px 10px;
+}
+.balinfo{
+	margin: -58px 20px !important;
+	padding: 0 !important;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+}
+.user-info{
+	margin: 2px 45px;
+}
+.user-info p{
+	margin: 0 !important;
+	padding: 0 !important;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	line-height: 20px;
+}
+.banner-right{
+	margin-left: 60px;
+}
+.see-all{
+	width: 100%;
+	text-align: center;
+}
+.see-all a:hover{
+	color: #ed6524;
+}
+.banner .circle {
+	height: 120px;
+	width: 120px;
+	background-color: #5cb377;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	right: 45px;
+	top: -24px;
+}
+.banner .circle h3{
+	padding-top: 31px;
+	color: white;
+}
+.right-img{
+	position: relative;
+}
+/*second page service*/
+.service{
+	width: 100%;
+	float: left;
+	background-image: linear-background(to bottom, #f6f8fc 0%,#fff 70%);
+	display: flow-root;
+}
+.service-body{
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+}
+.m1col{
+	width: 33.33%;
+	float: left;
+}
+.service-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.service-title h1{
+	font-size: 42px;
+	margin: 10px 0;
+}
+.service-title p{
+	font-size: 22px;
+	line-height: 30px;
+	color: #4c527d;
+}
+.n1{
+	text-align: center;
+	padding: 0 40px;
+}
+.n1 h3{
+	margin: 15px 0;
+}
+.n1 p{
+	color: #4c527d;
+	line-height: 24px;
+}
+/*third step starthing here*/
+
+.temi-section{
+	width: 100%;
+	display: flow-root;
+
+}
+.temi-title{
+	text-align: center;
+	margin: 50px 0;
+}
+.temi-title h1{
+	font-size: 42px !important;
+}
+.temi-body{
+	width: 100%;
+	float: left;
+}
+.temicol5{
+	width: 50%;
+	float: left;
+	margin: -58px 0;
+}
+.temi-img{
+	padding: 50px;
+	text-align: right;
+}
+.temi-text{
+	padding: 50px;
+}
+.temi-text ul li{
+	list-style: none;
+	color: #4c527d;
+	margin-bottom: 16px;
+	line-height: 1.5;
+	font-size: 18px !important;
+}
+.temi-text ul li i{
+	color: #7FCDB8;
+	margin-right: 10px;
+}
+/*simple stuff css start*/
+.simple-stuff{
+	width: 100%;
+	display: flow-root;
+}
+.simple-stufftitle{
+	text-align: center;
+	padding-top: 100px;
+}
+.simple-stufftitle h1{
+	font-size: 47px;
+	margin-bottom: 16px;
+}
+.simple-stufftitle p{ 
+	font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #4c527d;
+}
+
+.dekhi li {
+	margin-top: 35px;
+	padding-left:400px;
+}
+.dekhi p{
+	text-align-last: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-size: 17px;
+	color: #66527d
+}
+.dekhi i {
+	font-size: 25px;
+	margin-right: 10px;
+	color: #7fcdb8;
+}
+.dekhi span{
+	font-weight: bold;
+	font-size: 20px;
+}
+.dekhi ul li{
+	list-style: none;
+}
+
+
+/*simple stuff end*/
+/*subcribe start*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	padding: 100px 0;
+}
+.subscribe-box{
+	background-color: #f6f4fc;
+	margin: 0 auto;
+	width: 70%;
+	padding: 45px 15px;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
+	cursor: pointer;
+}
+.subscribe-box:hover{
+	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+	transition:all 0.5s ease-in-out;
+}
+.subscribe-box p{
+    color: #4c527d;
+    margin: 20px 0;
+}
+.email-input {
+	width: 40%;
+	padding: 10px;
+	border-radius: 3px;
+	border:none;
+}
+.email-input:focus{
+	outline-color: #ed6524;
+}
+.send-button{
+	padding: 10px 15px;
+	font-weight: 600;
+	background-color: #ed6524;
+	border: 1px solid #ed6524;
+	color: white;
+	border-radius: 3px;
+
+}
+/*subscribe end*/
+/*book review start*/
+.book-review{
+	width: 100%;
+	display: flow-root;
+}
+.book-title{
+	margin: 50px 0;
+	text-align: center;
+}
+.reviews-01{
+	width: 100%;
+	float: left;
+}
+.review-box{
+	padding: 24px;
+	background-color: #f6f4fc;
+	position: relative;
+	margin: 0 15px;
+}
+.review-text{
+	margin: 10px;
+}
+.review-text p{
+	color: #4c527d;
+}
+.testimonial-icon{
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	background:#f5a782;
+	position: absolute;
+	left: 40%;
+	top: -7%;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.review-02{
+	width: 100%;
+	float: left;
+	margin: 25px 0;
+}
+.space{
+	margin: 0 200px;
+}
+.temicol4{
+	width: 50%;
+	float: left;
+
+}
+/*book review end*/
+.last-button{
+	text-align: center;
+}
+.endgame{
+	color: white;
+	background-color: #ed6524;
+	font-weight: 600;
+	font-size: 15px;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+.endgame:hover{
+	background-color: #e55713;
+	transition: 0.5s ease-in-out;
+}
+/*user testimonial start here*/
+.user-section{
+	padding: 50px 0;
+	background-color: #ed6524;
+}
+.user-profile img{
+	width: 150px;
+	margin-bottom: 30px;
+}
+.user-section h1{
+	color: white;
+}
+.user-section p{
+	color: white;
+	margin: 30px 0;
+}
+.vukka{
+	text-align: center;
+}
+.cukka{
+	text-align: left;
+	padding: 30px 0;
+	line-height: 1.5;
+}
+.user-profile{
+	margin: 20px 200px;
+}
+.cukka a{
+	color: white;
+	font-weight: 600;
+}
+/*user testimonial ends here*/
+.flwatr{
+	text-align: center;
+}
+.flwatr h3{
+	color: white;
+}
+
+.Social ul li{
+	list-style: none;
+	display: inline-block;
+}
+.Social{
+	margin-top: 30px;
+	text-align: center;
+}
+.Social ul li i{
+	font-size: 24px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+}
+.Social ul li i:hover{
+	transition: 0.5s ease-in-out;
+	transform: scale(1.2);
+}
+/*finishing*/
+.finish-body{
+	width: 100%;
+	float: left;
+	display: flow-root;
+	height: 150px;
+}
+.ultimate{
+	text-align: center;
+    line-height: 10;
+}
+.ultimate i{
+	color: #fb866a;
+}
+.ultimate p{
+	color: #4c527d;
+}
+.ultimate a:hover{
+	color: #ed6524;
+}
